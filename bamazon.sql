@@ -8,7 +8,7 @@ create table products(
   department_name VARCHAR(100) NULL,
   price DECIMAL(10,3) NULL,
   stock_quantity INT NULL,
-  PRIMARY KEY (item_id)
+  PRIMARY KEY (position)
 );
 insert INTO products (item_id , product_name, department_name, price, stock_quantity )
 VALUES ("A0001", "IPHONE X", "sell", "999", 200),
